@@ -1,8 +1,8 @@
-# AY-ZONIC-CORE Rev2.0
+# 🔊AY-ZONIC-Core
 
-AY-ZONIC-CORE is a modular PSG interface designed for the ZX81, supporting both ZON-X and ZON-X-81 compatibility via simplified A4-only decode logic. Rev2.0 introduces gate economy, contributor-friendly schematic clarity, and expansion-ready I/O via AY-3-8912 Port A.
+AY-ZONIC-Core is a modular PSG interface designed for the ZX81, supporting both ZON-X and ZON-X-81 compatibility via simplified A4-only decode logic. Rev2.0 introduces gate economy, contributor-friendly schematic clarity, and expansion-ready I/O via AY-3-8912 Port A.
 
-> **This project continues from [JonZON-X](https://github.com/Bambleweeny57/JonZON-X), which was closed at Rev1.4** after timing issues were discovered in demo playback. AY-ZONIC-CORE retains the same A4-based decode logic but drops A5 and A6, simplifying the design to single PSG support and saving a gate.
+> **This project continues from [JonZON-X](https://github.com/Bambleweeny57/JonZON-X), which was closed at Rev1.4** after timing issues were discovered in demo playback. AY-ZONIC-Core retains the same A4-based decode logic but drops A5 and A6 simplifying the design to single PSG support and saving a gate.
 
 ## 🔧 Features
 
@@ -12,7 +12,7 @@ AY-ZONIC-CORE is a modular PSG interface designed for the ZX81, supporting both 
 - **AY-3-8912 PSG integration** with clean register selection and audio output
 - **Series resistors** on data bus for signal protection
 - **Pull-ups** from ZX81 Expansion Bus to PSG for stable logic levels
-- **Port A expansion header** with +5V and GND for SD card experimentation
+- **Port A expansion header** with +5V and GND for SD card and I/O experimentation
 - **/RD decode support** for future peripheral interaction and PSG reads
 
 ## 🧠 Decode Logic Overview
@@ -42,7 +42,7 @@ The PSG is selected when:
   - `/WR = 0`, `/RD = 1` → Write to PSG
   - `/WR = 0`, `/RD = 0` → Read from PSG
 
-> `/RD` is now decoded explicitly to support read operations from the PSG and future SD card interfaces.
+> `/RD` is now decoded explicitly to support read operations from the PSG and future SD card and I/O interfaces.
 
 ### Legacy Reference — JonZON-X Rev1.4 Decode Matrix (A5/A6 omitted)
 
@@ -86,7 +86,7 @@ This enables SD card interfacing, experimental I/O modules, and future expansion
 
 ## 🗂️ Repository Structure
 
-- `ay-zonic-core.pdf` — Rev2.0 schematic (KiCad source available on request)
+- `pdf/ay-zonic-core.pdf` — Rev2.0 schematic (KiCad source available on request)
 - `README.md` — This file
 - `images/` — Decode logic diagram and overlays
 - `docs/` — Contributor notes and onboarding diagrams (coming soon)
