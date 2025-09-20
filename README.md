@@ -14,13 +14,6 @@ AY-ZONIC-Core is a modular PSG interface designed for the ZX81, supporting both 
 - **Pull-ups** from ZX81 Expansion Bus to PSG for stable logic levels
 - **Port A expansion header** with +5V and GND for SD card and I/O experimentation
 - **/RD decode support** for future peripheral interaction and PSG reads
-
-## 🧠 Decode Logic Overview
-
-The schematic uses simplified A4-only address decoding, inherited from JonZON-X Rev1.4. By removing A5 and A6 from the decode path, Rev2.0 drops multi-PSG support in favor of gate economy and contributor clarity.
-
-You can view the decode logic diagram [here](https://github.com/Bambleweeny57/AY-ZONIC-Core/blob/main/images/decode_logic.png).
-
 ### DIP Switch Logic — A4 Routing Modes
 
 | DIP Switch | A4 Source             | Mode         | Description                                      |
@@ -29,6 +22,14 @@ You can view the decode logic diagram [here](https://github.com/Bambleweeny57/AY
 | ON         | From ZX81 Expansion Bus  | ZON-X        | Enables dynamic A4 control from host             |
 
 > This DIP-controlled logic allows seamless switching between ZON-X and ZON-X-81 compatibility without modifying the schematic.
+> 
+## 🧠 Decode Logic Overview
+
+The schematic uses simplified A4-only address decoding, inherited from JonZON-X Rev1.4. By removing A5 and A6 from the decode path, Rev2.0 drops multi-PSG support in favor of gate economy and contributor clarity.
+
+## 🖼️ Visual Decode Logic
+
+![AY Control Logic](images/decode_logic.png)
 
 ### Decode Logic Explanation
 
@@ -44,7 +45,7 @@ The PSG is selected when:
 
 > `/RD` is now decoded explicitly to support read operations from the PSG and future SD card and I/O interfaces.
 
-### Legacy Reference — JonZON-X Rev1.4 Decode Matrix (A5/A6 omitted)
+### Reference — JonZON-X Rev1.4 Decode Matrix (A5/A6 omitted) for AY-ZONIC-Core
 
 | A0–A4 | A2 | A7 | /IOREQ | /WR | /RD | BDIR | BC1 | Operation             |
 |-------|----|----|--------|-----|-----|------|-----|------------------------|
