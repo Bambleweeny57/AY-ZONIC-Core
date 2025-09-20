@@ -87,9 +87,12 @@ This enables SD card interfacing, experimental I/O modules, and future expansion
 
 ## 🗂️ Repository Structure
 
-- `pdf/ay-zonic-core.pdf` — Rev2.0 schematic (KiCad source available on request)
+
 - `README.md` — This file
+- `src/` — schematic and PCB design files (KiCad v9+)
+- `pdf/ay-zonic-core.pdf` — Rev2.x schematic (KiCad source available from /src)
 - `images/` — Decode logic diagram and overlays
+- `fabfioes/` — Gerber and Drill fabrication files (coming soon)
 - `docs/` — Contributor notes and onboarding diagrams (coming soon)
 
 ## 🧭 Contributor Notes
