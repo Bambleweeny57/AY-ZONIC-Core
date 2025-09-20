@@ -60,11 +60,29 @@ The PSG is selected when:
 ## 🔌 Expansion Header (Port A)
 
 Port A of the AY-3-8912 exposes:
-- **+5V**
-- **GND**
-- **User I/O lines** for experimentation
+- **8 digital I/O lines** (AIO0–AIO7)
+- **+5V** and **GND** for powering peripherals
 
-This enables SD card interfacing and other peripheral hacks without modifying the core schematic.
+This enables SD card interfacing, experimental I/O modules, and future expansion without modifying the core schematic.
+
+### Expansion Header Pinout
+
+| Pin | Signal | Description               |
+|-----|--------|---------------------------|
+| 1   | AIO0   | Port A bit 0              |
+| 2   | AIO1   | Port A bit 1              |
+| 3   | AIO2   | Port A bit 2              |
+| 4   | AIO3   | Port A bit 3              |
+| 5   | AIO4   | Port A bit 4              |
+| 6   | AIO5   | Port A bit 5              |
+| 7   | AIO6   | Port A bit 6              |
+| 8   | AIO7   | Port A bit 7              |
+| 9   | +5V    | Power supply for expansion|
+| 10  | GND    | Ground                    |
+
+> This header is ideal for SD card experiments, LED arrays, or future playback logic modules. All signals are directly mapped from the AY-3-8912 Port A.
+
+---
 
 ## 🗂️ Repository Structure
 
