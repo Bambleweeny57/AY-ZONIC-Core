@@ -1,4 +1,4 @@
-26241042045270479
+26237581109440989
 AY-3-8912
 AY-3-8912
 
@@ -20,13 +20,6 @@ audio belton reverb
 0
 7
 7
-AusioJack
-SPC21348
-
-
-0
-5
-5
 Battery
 BatteryClip_Keystone_54_D16-19mm
 Battery clip for batteries with a diameter between 16-19 mm: https://www.keyelco.com/product.cfm/product_id/826
@@ -67640,13 +67633,6 @@ solder jumper open
 0
 3
 3
-LCD
-LCD1602
-
-
-0
-20
-20
 LED_SMD
 LED-APA102-2020
 http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf
@@ -104656,21 +104642,21 @@ Varistor VF
 0
 2
 2
-ZX81_FOOTPRINT
+ZX81_Expansion_Connector
 EDGE ZX81 BOTTOM
 ZX Edge
 CONN BUS  ZX
 0
 44
 44
-ZX81_FOOTPRINT
+ZX81_Expansion_Connector
 EDGE ZX81 TOP
 ZX Edge
 CONN BUS  ZX
 0
 44
 44
-ZX81_FOOTPRINT
+ZX81_Expansion_Connector
 ZX81_EdgeConnector
 
 
