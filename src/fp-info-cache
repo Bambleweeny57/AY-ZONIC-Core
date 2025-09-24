@@ -1,4 +1,11 @@
-26237525113204241
+26241042045270479
+AY-3-8912
+AY-3-8912
+
+
+0
+28
+28
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -104670,3 +104677,10 @@ ZX81_EdgeConnector
 0
 44
 44
+audio_jack
+CONN5_SPC21348_MTC
+
+SPC21348 
+0
+5
+5

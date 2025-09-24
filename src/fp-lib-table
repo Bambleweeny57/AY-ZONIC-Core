@@ -1,0 +1,7 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "audio_jack")(type "KiCad")(uri "D:/Github/Repos/ay-zonic-core/footprints/audio jack/audio_jack.pretty")(options "")(descr ""))
+  (lib (name "AY-3-8910")(type "KiCad")(uri "D:/Github/Repos/ay-zonic-core/footprints/AY-3-8912/AY-3-8910.pretty")(options "")(descr ""))
+  (lib (name "Library")(type "KiCad")(uri "D:/Github/Repos/ay-zonic-core/footprints/AY-3-8912/AY-3-8912.pretty/Library.pretty")(options "")(descr ""))
+  (lib (name "AY-3-8912")(type "KiCad")(uri "D:/Github/Repos/ay-zonic-core/footprints/AY-3-8912/AY-3-8912.pretty")(options "")(descr ""))
+)
