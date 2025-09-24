@@ -6839,7 +6839,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "SW_DIP_x01"
+		(property "Value" "ZON-X"
 			(at -2.032 0 0)
 			(layer "B.SilkS")
 			(uuid "810bc98d-f159-4acb-9a7c-f2a509766da5")
