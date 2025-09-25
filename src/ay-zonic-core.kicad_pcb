@@ -2695,8 +2695,8 @@
 		(uuid "275ecc9e-9883-498b-8b2d-2ea1f5c820b3")
 		(at 116.158 52.23 -90)
 		(tags "SPC21348 ")
-		(property "Reference" "CO2"
-			(at 5 0 90)
+		(property "Reference" "Line Out"
+			(at -2.446 -4.746 180)
 			(unlocked yes)
 			(layer "B.SilkS")
 			(uuid "63dee846-82ef-4414-975e-e873449bf5b9")
@@ -2712,6 +2712,7 @@
 			(at 5 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "21bfa880-6c7e-435f-a471-26cb8b2febd7")
 			(effects
 				(font
@@ -2924,19 +2925,6 @@
 			(fill no)
 			(layer "B.Fab")
 			(uuid "be85b3b7-117a-4fc2-97a3-d69972e7d396")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 5 0 90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(uuid "ea2b9af3-3e2e-449b-9f51-e8899902c589")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
 		)
 		(pad "" np_thru_hole circle
 			(at 0 -7.5 270)
@@ -9651,11 +9639,11 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical"
 		(layer "B.Cu")
 		(uuid "ebae642b-eb8a-466f-b86b-1fc16d710a65")
-		(at 106.934 51.816 90)
+		(at 99.314 52.07 90)
 		(descr "Through hole straight pin header, 1x10, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x10 2.54mm single row")
-		(property "Reference" "J1"
-			(at 0 -25.146 90)
+		(property "Reference" "I/O"
+			(at 0 -25.4 270)
 			(layer "B.SilkS")
 			(uuid "2309d355-0f32-47da-8919-c04eece0d3a1")
 			(effects
@@ -9667,7 +9655,7 @@
 			)
 		)
 		(property "Value" "01x10"
-			(at 0 -25.24 90)
+			(at 0 -25.24 270)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "83dd2844-4164-4c0f-bdf0-4f798a851915")
@@ -9680,7 +9668,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "b3d509f6-0f58-4f54-a552-72086f0a7e6b")
@@ -9693,7 +9681,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x10, script generated"
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "38d6b2d5-0395-4b2c-8dd2-266ae347e819")
@@ -9860,16 +9848,134 @@
 			(layer "B.Fab")
 			(uuid "acb3ffdf-5f41-45f3-8908-ca7b041cc81a")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 0 -11.43 0)
-			(layer "B.Fab")
-			(uuid "4071d2a4-395a-40ba-a783-ff1bffa60816")
+		(fp_text user "A2"
+			(at 3.048 -7.62 270)
+			(unlocked yes)
+			(layer "B.SilkS")
+			(uuid "0375d460-4d96-4a2f-9343-eebc3164b371")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.6 0.6)
+					(thickness 0.09)
 				)
-				(justify mirror)
+				(justify right mirror)
+			)
+		)
+		(fp_text user "A3"
+			(at 3.048 -10.16 270)
+			(unlocked yes)
+			(layer "B.SilkS")
+			(uuid "29d43b50-627a-46d9-9b3d-399eb5bcdb22")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.09)
+				)
+				(justify right mirror)
+			)
+		)
+		(fp_text user "A4"
+			(at 3.048 -12.7 270)
+			(unlocked yes)
+			(layer "B.SilkS")
+			(uuid "387363b5-9802-4b4e-954f-b41fb36eae9e")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.09)
+				)
+				(justify right mirror)
+			)
+		)
+		(fp_text user "A7"
+			(at 3.048 -20.32 270)
+			(unlocked yes)
+			(layer "B.SilkS")
+			(uuid "4d62dfb7-ed23-42b5-a5e5-481dac483017")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.09)
+				)
+				(justify right mirror)
+			)
+		)
+		(fp_text user "-"
+			(at 2.54 -22.86 270)
+			(unlocked yes)
+			(layer "B.SilkS")
+			(uuid "4d8db1b8-0ff7-40ed-a1bc-7ee01f26ace8")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.09)
+				)
+				(justify right mirror)
+			)
+		)
+		(fp_text user "5v"
+			(at 3.048 0 270)
+			(unlocked yes)
+			(layer "B.SilkS")
+			(uuid "68b7ce71-6475-439f-8e48-a18668e34ad8")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.09)
+				)
+				(justify right mirror)
+			)
+		)
+		(fp_text user "A6"
+			(at 3.048 -17.78 270)
+			(unlocked yes)
+			(layer "B.SilkS")
+			(uuid "b34d0fc5-b80c-4619-a627-d939be114550")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.09)
+				)
+				(justify right mirror)
+			)
+		)
+		(fp_text user "A5"
+			(at 3.048 -15.24 270)
+			(unlocked yes)
+			(layer "B.SilkS")
+			(uuid "c241c09a-65f1-436e-b61b-cfca894d4f72")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.09)
+				)
+				(justify right mirror)
+			)
+		)
+		(fp_text user "A1"
+			(at 3.048 -5.08 270)
+			(unlocked yes)
+			(layer "B.SilkS")
+			(uuid "c787266a-1824-4217-aed9-d6f5c1226e94")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.09)
+				)
+				(justify right mirror)
+			)
+		)
+		(fp_text user "A0"
+			(at 3.048 -2.54 270)
+			(unlocked yes)
+			(layer "B.SilkS")
+			(uuid "fd486efd-970a-4f93-8239-b1851405fa66")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.09)
+				)
+				(justify right mirror)
 			)
 		)
 		(pad "1" thru_hole rect
@@ -10995,6 +11101,18 @@
 		(fill no)
 		(layer "Edge.Cuts")
 		(uuid "add79c91-8b54-40d9-82a7-ee011c2ae69a")
+	)
+	(gr_text "AY-ZONIC-Core Rev2.0\n2025 J.Gratton"
+		(at 66.548 114.3 0)
+		(layer "F.SilkS")
+		(uuid "1e8c2585-f7b9-4f83-b39b-1287aff7d903")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left)
+		)
 	)
 	(embedded_fonts no)
 )
