@@ -66,20 +66,20 @@ Port A of the AY-3-8912 exposes:
 
 This enables SD card interfacing, experimental I/O modules, and future expansion without modifying the core schematic.
 
-### Expansion Header Pinout
+### 🧵 AY-ZONIC-Core I/O Connector Pinout
 
-| Pin | Signal | Description               |
-|-----|--------|---------------------------|
-| 1   | AIO0   | Port A bit 0              |
-| 2   | AIO1   | Port A bit 1              |
-| 3   | AIO2   | Port A bit 2              |
-| 4   | AIO3   | Port A bit 3              |
-| 5   | AIO4   | Port A bit 4              |
-| 6   | AIO5   | Port A bit 5              |
-| 7   | AIO6   | Port A bit 6              |
-| 8   | AIO7   | Port A bit 7              |
-| 9   | +5V    | Power supply for expansion|
-| 10  | GND    | Ground                    |
+| Pin | Signal | Description            |
+|-----|--------|------------------------|
+| 1   | 5V     | Power supply (5 volts) |
+| 2   | A0     | Address line 0         |
+| 3   | A1     | Address line 1         |
+| 4   | A2     | Address line 2         |
+| 5   | A3     | Address line 3         |
+| 6   | A4     | Address line 4         |
+| 7   | A5     | Address line 5         |
+| 8   | A6     | Address line 6         |
+| 9   | A7     | Address line 7         |
+| 10  | GND    | Ground                 |
 
 > This header is ideal for SD card experiments, LED arrays, or future playback logic modules. All signals are directly mapped from the AY-3-8912 Port A.
 
