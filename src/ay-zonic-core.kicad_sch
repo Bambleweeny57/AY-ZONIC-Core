@@ -5685,6 +5685,89 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "R_3"
 			(pin_numbers
 				(hide yes)
@@ -8539,8 +8622,8 @@
 		(uuid 452cc8ac-36e9-4cd9-907a-97c6457d75d2)
 	)
 	(rectangle
-		(start 218.44 248.285)
-		(end 277.495 278.13)
+		(start 184.15 248.285)
+		(end 243.205 278.13)
 		(stroke
 			(width 0)
 			(type default)
@@ -8597,6 +8680,18 @@
 			(type none)
 		)
 		(uuid a2ca651d-93d4-4cd9-af73-11f5476ea6f9)
+	)
+	(rectangle
+		(start 264.16 254)
+		(end 297.18 278.13)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid ad622bae-e6d8-4163-823f-6107570df5f0)
 	)
 	(rectangle
 		(start 99.06 230.505)
@@ -8690,7 +8785,7 @@
 	)
 	(text "IC Decoupling"
 		(exclude_from_sim no)
-		(at 233.172 251.714 0)
+		(at 198.882 251.714 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -8698,6 +8793,17 @@
 			)
 		)
 		(uuid "ba1a0f48-359d-45ba-8e46-76e0b6a659cf")
+	)
+	(text "Mounting Holes"
+		(exclude_from_sim no)
+		(at 280.67 257.81 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.3175)
+			)
+		)
+		(uuid "bf231363-d402-4798-9849-b0a247d336f8")
 	)
 	(text "Logic Power"
 		(exclude_from_sim no)
@@ -8761,7 +8867,7 @@
 		(uuid "025b8e3f-49cf-431c-b3ab-ca3fe74fbfd3")
 	)
 	(junction
-		(at 233.68 267.97)
+		(at 199.39 267.97)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "07382f3a-1bc4-42f2-8074-6631fc3126f0")
@@ -8827,7 +8933,7 @@
 		(uuid "265f0ef5-1ee7-4e70-a4dc-663d102f1ccc")
 	)
 	(junction
-		(at 256.54 262.89)
+		(at 222.25 262.89)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "28bd5718-7fe4-402f-addb-81a247b24c5d")
@@ -8839,13 +8945,13 @@
 		(uuid "29b9dffd-1d43-4bc4-957e-3c6c70dc00b2")
 	)
 	(junction
-		(at 222.25 262.89)
+		(at 187.96 262.89)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "30138876-72ae-4883-95ff-0fb5ca7179ac")
 	)
 	(junction
-		(at 245.11 262.89)
+		(at 210.82 262.89)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "321830f3-234d-4d2c-9113-ea51c6afb30e")
@@ -8929,13 +9035,13 @@
 		(uuid "966d89a9-971a-4b13-84bc-a83fb055534b")
 	)
 	(junction
-		(at 245.11 267.97)
+		(at 210.82 267.97)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "99a25433-512b-4d9a-8722-72397a2f231a")
 	)
 	(junction
-		(at 256.54 267.97)
+		(at 222.25 267.97)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9dad9b4d-f664-4ad4-8f32-d488ab8bccd7")
@@ -8959,7 +9065,7 @@
 		(uuid "a0edf9ce-b94a-4320-b15b-82fd2e81d2e2")
 	)
 	(junction
-		(at 222.25 267.97)
+		(at 187.96 267.97)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ab51fce8-f763-401d-b3c3-b7dd2b37d4ba")
@@ -9013,7 +9119,7 @@
 		(uuid "dd173abe-ad41-43bd-9251-2f3c3bddace5")
 	)
 	(junction
-		(at 233.68 262.89)
+		(at 199.39 262.89)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dec22102-50b8-48d6-ac6a-da11f9fb7388")
@@ -9318,7 +9424,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 267.97) (xy 256.54 267.97)
+			(xy 210.82 267.97) (xy 222.25 267.97)
 		)
 		(stroke
 			(width 0)
@@ -9388,7 +9494,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 262.89) (xy 245.11 262.89)
+			(xy 199.39 262.89) (xy 210.82 262.89)
 		)
 		(stroke
 			(width 0)
@@ -9638,7 +9744,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 262.89) (xy 233.68 262.89)
+			(xy 187.96 262.89) (xy 199.39 262.89)
 		)
 		(stroke
 			(width 0)
@@ -9798,7 +9904,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 260.35) (xy 222.25 262.89)
+			(xy 187.96 260.35) (xy 187.96 262.89)
 		)
 		(stroke
 			(width 0)
@@ -9848,7 +9954,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 262.89) (xy 267.97 262.89)
+			(xy 222.25 262.89) (xy 233.68 262.89)
 		)
 		(stroke
 			(width 0)
@@ -9918,7 +10024,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 262.89) (xy 256.54 262.89)
+			(xy 210.82 262.89) (xy 222.25 262.89)
 		)
 		(stroke
 			(width 0)
@@ -10428,7 +10534,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 267.97) (xy 222.25 271.78)
+			(xy 187.96 267.97) (xy 187.96 271.78)
 		)
 		(stroke
 			(width 0)
@@ -10998,7 +11104,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 267.97) (xy 245.11 267.97)
+			(xy 199.39 267.97) (xy 210.82 267.97)
 		)
 		(stroke
 			(width 0)
@@ -11098,7 +11204,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 267.97) (xy 222.25 267.97)
+			(xy 199.39 267.97) (xy 187.96 267.97)
 		)
 		(stroke
 			(width 0)
@@ -11408,7 +11514,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 267.97) (xy 267.97 267.97)
+			(xy 222.25 267.97) (xy 233.68 267.97)
 		)
 		(stroke
 			(width 0)
@@ -12325,6 +12431,70 @@
 			(justify left bottom)
 		)
 		(uuid "ffdb2010-4c72-4f8c-814f-d2f027acf5ee")
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 269.24 273.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "034eaacc-4460-4797-82b6-4280671414a6")
+		(property "Reference" "H3"
+			(at 271.78 271.7799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 271.78 274.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+			(at 269.24 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 269.24 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 269.24 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "ay-zonic-core"
+				(path "/315d6d04-4d18-4e55-a11c-aa8b11bc2d55"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:VCC")
@@ -14243,6 +14413,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 269.24 267.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4382ea05-507b-4b0d-8797-5d42910c554e")
+		(property "Reference" "H2"
+			(at 271.78 266.6999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 271.78 269.2399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+			(at 269.24 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 269.24 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 269.24 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "ay-zonic-core"
+				(path "/315d6d04-4d18-4e55-a11c-aa8b11bc2d55"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "74xx:74LS02")
 		(at 269.24 96.52 0)
 		(unit 1)
@@ -14545,7 +14779,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 222.25 271.78 0)
+		(at 187.96 271.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14553,7 +14787,7 @@
 		(dnp no)
 		(uuid "600cd0a4-3c55-460c-86e0-e1dfa0bf509e")
 		(property "Reference" "#PWR02"
-			(at 222.25 278.13 0)
+			(at 187.96 278.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14562,7 +14796,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 222.25 275.59 0)
+			(at 187.96 275.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14570,7 +14804,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 222.25 271.78 0)
+			(at 187.96 271.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14579,7 +14813,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 222.25 271.78 0)
+			(at 187.96 271.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14588,7 +14822,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 222.25 271.78 0)
+			(at 187.96 271.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15154,7 +15388,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 222.25 260.35 0)
+		(at 187.96 260.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15162,7 +15396,7 @@
 		(dnp no)
 		(uuid "7b7d26bb-2da1-47d4-b9c8-13f2569ae7c4")
 		(property "Reference" "#PWR01"
-			(at 222.25 264.16 0)
+			(at 187.96 264.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15171,7 +15405,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 222.25 256.794 0)
+			(at 187.96 256.794 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15179,7 +15413,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 222.25 260.35 0)
+			(at 187.96 260.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15188,7 +15422,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 222.25 260.35 0)
+			(at 187.96 260.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15197,7 +15431,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 222.25 260.35 0)
+			(at 187.96 260.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15648,7 +15882,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 267.97 265.43 0)
+		(at 233.68 265.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15656,7 +15890,7 @@
 		(dnp no)
 		(uuid "8b1197b3-d212-48fe-869c-2ae221cf7e43")
 		(property "Reference" "C9"
-			(at 270.002 264.922 0)
+			(at 235.712 264.922 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15665,7 +15899,7 @@
 			)
 		)
 		(property "Value" "100nf"
-			(at 270.256 266.446 0)
+			(at 235.966 266.446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15674,7 +15908,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
-			(at 267.97 265.43 0)
+			(at 233.68 265.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15683,7 +15917,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 267.97 265.43 0)
+			(at 233.68 265.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15692,7 +15926,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 267.97 265.43 0)
+			(at 233.68 265.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15947,6 +16181,70 @@
 			(project "ay-zonic-core"
 				(path "/315d6d04-4d18-4e55-a11c-aa8b11bc2d55"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 269.24 262.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a51dd007-87c5-44c1-bdf0-70ecb4fecd97")
+		(property "Reference" "H1"
+			(at 271.78 261.6199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 271.78 264.1599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+			(at 269.24 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 269.24 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 269.24 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/315d6d04-4d18-4e55-a11c-aa8b11bc2d55"
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -16584,7 +16882,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 222.25 265.43 0)
+		(at 187.96 265.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16592,7 +16890,7 @@
 		(dnp no)
 		(uuid "ceafd4b6-defd-440e-90ea-517c911ced0e")
 		(property "Reference" "C5"
-			(at 224.282 264.922 0)
+			(at 189.992 264.922 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16601,7 +16899,7 @@
 			)
 		)
 		(property "Value" "100nf"
-			(at 224.536 266.446 0)
+			(at 190.246 266.446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16610,7 +16908,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
-			(at 222.25 265.43 0)
+			(at 187.96 265.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16619,7 +16917,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 222.25 265.43 0)
+			(at 187.96 265.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16628,7 +16926,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 222.25 265.43 0)
+			(at 187.96 265.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16977,7 +17275,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 233.68 265.43 0)
+		(at 199.39 265.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16985,7 +17283,7 @@
 		(dnp no)
 		(uuid "d2169191-a5c7-42e3-85a5-7f7a73a10b2f")
 		(property "Reference" "C6"
-			(at 235.712 264.922 0)
+			(at 201.422 264.922 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16994,7 +17292,7 @@
 			)
 		)
 		(property "Value" "100nf"
-			(at 235.966 266.446 0)
+			(at 201.676 266.446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17003,7 +17301,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
-			(at 233.68 265.43 0)
+			(at 199.39 265.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17012,7 +17310,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 233.68 265.43 0)
+			(at 199.39 265.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17021,7 +17319,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 233.68 265.43 0)
+			(at 199.39 265.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17046,7 +17344,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 245.11 265.43 0)
+		(at 210.82 265.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17054,7 +17352,7 @@
 		(dnp no)
 		(uuid "d65c62c2-b2c5-4c9b-a89a-a8d32c2c3d3d")
 		(property "Reference" "C7"
-			(at 247.142 264.922 0)
+			(at 212.852 264.922 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17063,7 +17361,7 @@
 			)
 		)
 		(property "Value" "100nf"
-			(at 247.396 266.446 0)
+			(at 213.106 266.446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17072,7 +17370,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
-			(at 245.11 265.43 0)
+			(at 210.82 265.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17081,7 +17379,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 245.11 265.43 0)
+			(at 210.82 265.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17090,7 +17388,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 245.11 265.43 0)
+			(at 210.82 265.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17283,7 +17581,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 256.54 265.43 0)
+		(at 222.25 265.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17291,7 +17589,7 @@
 		(dnp no)
 		(uuid "dcbea8e0-1d20-440f-837d-6823990fd777")
 		(property "Reference" "C8"
-			(at 258.572 264.922 0)
+			(at 224.282 264.922 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17300,7 +17598,7 @@
 			)
 		)
 		(property "Value" "100nf"
-			(at 258.826 266.446 0)
+			(at 224.536 266.446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17309,7 +17607,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
-			(at 256.54 265.43 0)
+			(at 222.25 265.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17318,7 +17616,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 256.54 265.43 0)
+			(at 222.25 265.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17327,7 +17625,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 256.54 265.43 0)
+			(at 222.25 265.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
