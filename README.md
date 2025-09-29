@@ -92,7 +92,7 @@ This enables SD card interfacing, experimental I/O modules, and future expansion
 - `src/` — schematic and PCB design files (KiCad v9+)
 - `pdf/ay-zonic-core.pdf` — Rev2.x schematic (KiCad source available from /src)
 - `images/` — Decode logic diagram and overlays
-- `fabfiles/` — Gerber and Exelon Drill fabrication files (coming soon)
+- `fabfiles/` — Gerber and Exelon Drill fabrication files
 - `docs/` — Contributor notes and onboarding diagrams (coming soon)
 
 ## 🧭 Contributor Notes
