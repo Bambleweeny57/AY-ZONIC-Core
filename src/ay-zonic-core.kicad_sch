@@ -8682,7 +8682,7 @@
 		(uuid a2ca651d-93d4-4cd9-af73-11f5476ea6f9)
 	)
 	(rectangle
-		(start 264.16 254)
+		(start 264.16 250.19)
 		(end 297.18 278.13)
 		(stroke
 			(width 0)
@@ -8796,7 +8796,7 @@
 	)
 	(text "Mounting Holes"
 		(exclude_from_sim no)
-		(at 280.67 257.81 0)
+		(at 280.67 254 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -12434,7 +12434,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 269.24 273.05 0)
+		(at 269.24 269.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -12443,7 +12443,7 @@
 		(fields_autoplaced yes)
 		(uuid "034eaacc-4460-4797-82b6-4280671414a6")
 		(property "Reference" "H3"
-			(at 271.78 271.7799 0)
+			(at 271.78 267.9699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12452,7 +12452,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 271.78 274.3199 0)
+			(at 271.78 270.5099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12461,7 +12461,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
-			(at 269.24 273.05 0)
+			(at 269.24 269.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12470,7 +12470,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 269.24 273.05 0)
+			(at 269.24 269.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12479,7 +12479,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 269.24 273.05 0)
+			(at 269.24 269.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14414,7 +14414,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 269.24 267.97 0)
+		(at 269.24 264.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -14423,7 +14423,7 @@
 		(fields_autoplaced yes)
 		(uuid "4382ea05-507b-4b0d-8797-5d42910c554e")
 		(property "Reference" "H2"
-			(at 271.78 266.6999 0)
+			(at 271.78 262.8899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14432,7 +14432,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 271.78 269.2399 0)
+			(at 271.78 265.4299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14441,7 +14441,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
-			(at 269.24 267.97 0)
+			(at 269.24 264.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14450,7 +14450,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 269.24 267.97 0)
+			(at 269.24 264.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14459,7 +14459,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 269.24 267.97 0)
+			(at 269.24 264.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15387,6 +15387,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 269.24 274.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "74dfa10f-13b5-4b3d-9fa8-f41e1a512672")
+		(property "Reference" "H4"
+			(at 271.78 273.0499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 271.78 275.5899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+			(at 269.24 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 269.24 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 269.24 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "ay-zonic-core"
+				(path "/315d6d04-4d18-4e55-a11c-aa8b11bc2d55"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VCC")
 		(at 187.96 260.35 0)
 		(unit 1)
@@ -16188,7 +16252,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 269.24 262.89 0)
+		(at 269.24 259.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -16197,7 +16261,7 @@
 		(fields_autoplaced yes)
 		(uuid "a51dd007-87c5-44c1-bdf0-70ecb4fecd97")
 		(property "Reference" "H1"
-			(at 271.78 261.6199 0)
+			(at 271.78 257.8099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16206,7 +16270,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 271.78 264.1599 0)
+			(at 271.78 260.3499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16215,7 +16279,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
-			(at 269.24 262.89 0)
+			(at 269.24 259.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16224,7 +16288,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 269.24 262.89 0)
+			(at 269.24 259.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16233,7 +16297,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 269.24 262.89 0)
+			(at 269.24 259.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
